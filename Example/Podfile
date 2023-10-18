@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'AuthValidatePods_Example' do
+  pod 'AuthValidatePods', :path => '../'
+
+  target 'AuthValidatePods_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
