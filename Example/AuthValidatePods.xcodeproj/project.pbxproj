@@ -30,7 +30,7 @@
 /* Begin PBXFileReference section */
 		217E27A92C6138BBDBC8C7B0 /* Pods-AuthValidatePods_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AuthValidatePods_Example.release.xcconfig"; path = "Target Support Files/Pods-AuthValidatePods_Example/Pods-AuthValidatePods_Example.release.xcconfig"; sourceTree = "<group>"; };
 		237DB60C6F69A0D1AABA2F9C /* Pods_AuthValidatePods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AuthValidatePods_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		256A1AF8131DE39F41DDB803 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		256A1AF8131DE39F41DDB803 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* AuthValidatePods_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AuthValidatePods_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -43,8 +43,8 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		8A75CF1EF9F5550C288C2DB1 /* Pods-AuthValidatePods_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AuthValidatePods_Tests.release.xcconfig"; path = "Target Support Files/Pods-AuthValidatePods_Tests/Pods-AuthValidatePods_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		9DDD5F7C1481B90E4710857A /* Pods-AuthValidatePods_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AuthValidatePods_Tests.debug.xcconfig"; path = "Target Support Files/Pods-AuthValidatePods_Tests/Pods-AuthValidatePods_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		CD5D36A41B88E656B9A7345C /* AuthValidatePods.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = AuthValidatePods.podspec; path = ../AuthValidatePods.podspec; sourceTree = "<group>"; };
-		CEC927E24F648105D92A9F71 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		CD5D36A41B88E656B9A7345C /* AuthValidatePods.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AuthValidatePods.podspec; path = ../AuthValidatePods.podspec; sourceTree = "<group>"; };
+		CEC927E24F648105D92A9F71 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		DC92B6129B8F78664E1F184E /* Pods-AuthValidatePods_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AuthValidatePods_Example.debug.xcconfig"; path = "Target Support Files/Pods-AuthValidatePods_Example/Pods-AuthValidatePods_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		EEE54D5D5C476900CEAF5ABA /* Pods_AuthValidatePods_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AuthValidatePods_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -77,7 +77,6 @@
 				9DDD5F7C1481B90E4710857A /* Pods-AuthValidatePods_Tests.debug.xcconfig */,
 				8A75CF1EF9F5550C288C2DB1 /* Pods-AuthValidatePods_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -479,6 +479,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AuthValidatePods/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -494,6 +495,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AuthValidatePods/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
