@@ -10,7 +10,7 @@
 		1E8F796C5119C0618F8AE530E4D1CD4F /* Pods-AuthValidatePods_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 75EE331EDA93CEA70FE2822422C36864 /* Pods-AuthValidatePods_Tests-dummy.m */; };
 		2408E5C9C5D633FA0025B2C5E875D247 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		3102C4857DBA109348FB45CA71DC7CE2 /* Pods-AuthValidatePods_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B111FAB715911F76F4064D3456A18B97 /* Pods-AuthValidatePods_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3A3138BC2ADFCB7E007AC793 /* AuthValidatePods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3138BB2ADFCB7E007AC793 /* AuthValidatePods.swift */; };
+		3A0650B42ADFD036004A656D /* AuthValidatePods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0650B32ADFD036004A656D /* AuthValidatePods.swift */; };
 		633A21CBC2A10F6BB995378A809CACFE /* Pods-AuthValidatePods_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E7CDCE217E39FF93EC6359463AAADBDC /* Pods-AuthValidatePods_Example-dummy.m */; };
 		9888348A02066F7A6DEDBB1BF2E62905 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		A0733136D885272BF04BF656CE05563A /* AuthValidatePods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ED622BDEBFF6D3A94B13B6CD686950A /* AuthValidatePods-dummy.m */; };
@@ -41,7 +41,7 @@
 		2961E7D4983434D2335F75D95873BFFD /* AuthValidatePods.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = AuthValidatePods.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		2E90288AD557B859C2C69C8354565407 /* Pods-AuthValidatePods_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AuthValidatePods_Example.release.xcconfig"; sourceTree = "<group>"; };
 		2EAC615D1ACFBC40FEFB4ABE1BC17577 /* Pods-AuthValidatePods_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AuthValidatePods_Example.modulemap"; sourceTree = "<group>"; };
-		3A3138BB2ADFCB7E007AC793 /* AuthValidatePods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AuthValidatePods.swift; path = ../AuthValidatePods.swift; sourceTree = "<group>"; };
+		3A0650B32ADFD036004A656D /* AuthValidatePods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthValidatePods.swift; sourceTree = "<group>"; };
 		3C3496E87283E1B171096050DCD62FC2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		3ED622BDEBFF6D3A94B13B6CD686950A /* AuthValidatePods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AuthValidatePods-dummy.m"; sourceTree = "<group>"; };
 		419E930171C9D04C413C619EF8D3833C /* AuthValidatePods-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AuthValidatePods-Info.plist"; sourceTree = "<group>"; };
@@ -122,7 +122,7 @@
 		2478CF6EE2F111C034792EF720F49B66 /* AuthValidatePods */ = {
 			isa = PBXGroup;
 			children = (
-				3A3138B82ADFC7A0007AC793 /* Classes */,
+				3A0650B22ADFCFDE004A656D /* Classess */,
 				01F0AEA75E8E1F92031314601A83BE4F /* Pod */,
 				B3AEE583E3AD5365C88831A4AAF6B55C /* Support Files */,
 			);
@@ -138,12 +138,12 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		3A3138B82ADFC7A0007AC793 /* Classes */ = {
+		3A0650B22ADFCFDE004A656D /* Classess */ = {
 			isa = PBXGroup;
 			children = (
-				3A3138BB2ADFCB7E007AC793 /* AuthValidatePods.swift */,
+				3A0650B32ADFD036004A656D /* AuthValidatePods.swift */,
 			);
-			path = Classes;
+			path = Classess;
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -389,7 +389,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A0733136D885272BF04BF656CE05563A /* AuthValidatePods-dummy.m in Sources */,
-				3A3138BC2ADFCB7E007AC793 /* AuthValidatePods.swift in Sources */,
+				3A0650B42ADFD036004A656D /* AuthValidatePods.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
