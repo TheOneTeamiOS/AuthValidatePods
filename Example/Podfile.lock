@@ -1,0 +1,16 @@
+PODS:
+  - AuthValidatePods (0.1.0)
+
+DEPENDENCIES:
+  - AuthValidatePods (from `../`)
+
+EXTERNAL SOURCES:
+  AuthValidatePods:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AuthValidatePods: 0c59536562ce5a12e421602e8668dda3cbdf110c
+
+PODFILE CHECKSUM: 4e24bb0d13365c6591b77d5ecbc39e01b4e773ff
+
+COCOAPODS: 1.12.1

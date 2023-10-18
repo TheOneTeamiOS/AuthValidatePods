@@ -1,0 +1,22 @@
+{
+  "name": "AuthValidatePods",
+  "version": "0.1.0",
+  "summary": "A short description of AuthValidatePods.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/divyeshgohil85/AuthValidatePods",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "divyeshgohil85": "sapana.chettipalli@theonetechnologies.co.in"
+  },
+  "source": {
+    "git": "https://github.com/divyeshgohil85/AuthValidatePods.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "AuthValidatePods/Classes/**/*"
+}
