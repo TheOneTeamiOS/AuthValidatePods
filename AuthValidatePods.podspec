@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AuthValidatePods'
-  s.version          = '7.0.0'
+  s.version          = '8.0.0'
   s.summary          = 'A short description of AuthValidatePods.'
 
 # This description is used to generate tags and improve search results.
