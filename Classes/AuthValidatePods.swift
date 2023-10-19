@@ -7,16 +7,27 @@
 
 import Foundation
 
-public class AuthValidatePods {
-    
-    public func isPasswordValid(_ password: String) -> Bool {
-        // Define your password rules using regular expressions
-        let passwordRegex = "^(?=.*[A-Za-z])(?=.*\\d)(?=.*[@#$%^&+=!])(?=\\S+$).{8,}$"
-        
-        let passwordTest = NSPredicate(format: "SELF MATCHES %@", passwordRegex)
-        return passwordTest.evaluate(with: password)
-    }
+public func isEmptyUsername(username: String) -> Bool {
+    // Add your username validation logic here, e.g., length requirements, character restrictions, etc.
+    // For simplicity, we'll check if the username is not empty in this example.
+    return !username.isEmpty
+}
 
-    
+public func isEmptyPassword(password: String) -> Bool {
+    // Add your password validation logic here, e.g., length requirements, complexity rules, etc.
+    // For simplicity, we'll check if the password is not empty in this example.
+    return !password.isEmpty
+}
+
+public func isEmptyEmail(email: String) -> Bool {
+    // Add your username validation logic here, e.g., length requirements, character restrictions, etc.
+    // For simplicity, we'll check if the username is not empty in this example.
+    return !email.isEmpty
+}
+
+public func isValidEmail(email: String) -> Bool {
+    let emailRegex = "[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,}"
+    let emailPredicate = NSPredicate(format: "SELF MATCHES %@", emailRegex)
+    return emailPredicate.evaluate(with: email)
 }
 
