@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AuthValidatePods'
-  s.version          = '8.0.0'
+  s.version          = '9.0.0'
   s.summary          = 'A short description of AuthValidatePods.'
 
 # This description is used to generate tags and improve search results.
@@ -30,11 +30,13 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '12.0'
 
-  s.source_files = 'Classes/**/*'
+   s.source_files = 'Classes/**/*'
+   
+   s.resources = "AuthValidatePods/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
   
-  # s.resource_bundles = {
-  #   'AuthValidatePods' => ['AuthValidatePods/Assets/*.png']
-  # }
+   s.resource_bundles = {
+     'AuthValidatePods' => ['AuthValidatePods/Assets/*.png','AuthValidatePods/Classes/Validate.storyboard']
+   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
