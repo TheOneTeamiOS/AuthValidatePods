@@ -32,10 +32,10 @@ TODO: Add long description of the pod here.
 
    s.source_files = 'Classes/**/*'
    
-   s.resources = "AuthValidatePods/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
+   s.resources = "AuthValidatePods/**/*.storyboard}"
   
    s.resource_bundles = {
-     'AuthValidatePods' => ['AuthValidatePods/Assets/*.png','AuthValidatePods/Classes/Validate.storyboard']
+     'AuthValidatePods' => ['AuthValidatePods/Classes/Validate.storyboard']
    }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
