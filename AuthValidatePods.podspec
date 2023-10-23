@@ -32,7 +32,7 @@ TODO: Add long description of the pod here.
 
    s.source_files = 'Classes/**/*'
    
-   s.resources = "AuthValidatePods/**/*.storyboard}"
+   s.resources = "AuthValidatePods/**/*.storyboard"
   
    s.resource_bundles = {
      'AuthValidatePods' => ['AuthValidatePods/Classes/Validate.storyboard']
