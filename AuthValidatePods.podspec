@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'AuthValidatePods'
   s.version          = '8.0.0'
-  s.summary          = 'A short description of AuthValidatePods.'
+  s.summary          = 'This project provide validations functions easy to use and develop auth module'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -32,10 +32,10 @@ TODO: Add long description of the pod here.
 
    s.source_files = 'Classes/**/*'
    
-   s.resources = "AuthValidatePods/**/*.storyboard"
+   s.resources = "Classes/**/*.storyboard"
   
    s.resource_bundles = {
-     'AuthValidatePods' => ['AuthValidatePods/Classes/Validate.storyboard']
+     'AuthValidatePods' => ['Classes/Validate.storyboard']
    }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
