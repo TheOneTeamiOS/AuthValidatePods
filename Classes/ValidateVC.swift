@@ -7,11 +7,11 @@
 
 import UIKit
 
-class ValidateVC: UIViewController {
+public class ValidateVC: UIViewController {
     
     @IBOutlet weak public var label: UILabel!
     
-    override func viewDidLoad() {
+    public override func viewDidLoad() {
         super.viewDidLoad()
 
     }
