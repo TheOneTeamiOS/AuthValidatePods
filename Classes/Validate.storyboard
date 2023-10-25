@@ -31,6 +31,9 @@
                             <constraint firstItem="Q16-p7-fHg" firstAttribute="centerY" secondItem="5EZ-qb-Rvc" secondAttribute="centerY" id="leJ-nw-vmF"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="label" destination="Q16-p7-fHg" id="5Ks-R6-w5H"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
