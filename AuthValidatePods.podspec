@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AuthValidatePods'
-  s.version          = '11.0.0'
+  s.version          = '12.0.0'
   s.summary          = 'This project provide validations functions easy to use and develop auth module'
   s.swift_version = '5.0'
 
