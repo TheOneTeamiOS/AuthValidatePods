@@ -18,6 +18,9 @@ public class ValidateVC: UIViewController {
         
         intValue += 1
         print(intValue)
+        
+        label?.text = "hello sapna"
+        print(label?.text ?? "")
 
     }
     
