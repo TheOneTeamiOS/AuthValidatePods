@@ -16,7 +16,7 @@ class ValidateVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        label.text = "Hello Sapna"
+       
     }
     
 }
