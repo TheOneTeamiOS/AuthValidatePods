@@ -17,22 +17,38 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello Sapna" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q16-p7-fHg">
+                            <label userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello Sapna" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q16-p7-fHg">
                                 <rect key="frame" x="109.66666666666669" y="408" width="174" height="36"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="30"/>
                                 <color key="textColor" red="0.82745098039999998" green="0.1201946661" blue="0.13981485369999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="mylabel" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rzj-el-Csq">
+                                <rect key="frame" x="175" y="287" width="59" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YzK-jQ-9cQ" customClass="CustomLabel" customModule="AuthValidatePods" customModuleProvider="target">
+                                <rect key="frame" x="175" y="544" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemPinkColor"/>
                         <constraints>
+                            <constraint firstItem="Q16-p7-fHg" firstAttribute="top" secondItem="Rzj-el-Csq" secondAttribute="bottom" constant="100" id="7ym-mR-YhT"/>
                             <constraint firstItem="Q16-p7-fHg" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="Mcx-po-u4x"/>
+                            <constraint firstItem="YzK-jQ-9cQ" firstAttribute="top" secondItem="Q16-p7-fHg" secondAttribute="bottom" constant="100" id="j7b-GD-BJW"/>
                             <constraint firstItem="Q16-p7-fHg" firstAttribute="centerY" secondItem="5EZ-qb-Rvc" secondAttribute="centerY" id="leJ-nw-vmF"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="customLabel" destination="YzK-jQ-9cQ" id="S3u-Ui-me4"/>
                         <outlet property="label" destination="Q16-p7-fHg" id="ec7-nv-ytf"/>
+                        <outlet property="myLabel" destination="Rzj-el-Csq" id="4us-kj-Ozk"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
