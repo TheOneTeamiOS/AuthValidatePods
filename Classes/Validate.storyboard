@@ -32,7 +32,7 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="label" destination="Q16-p7-fHg" id="0zS-c8-JIx"/>
+                        <outlet property="label" destination="Q16-p7-fHg" id="ec7-nv-ytf"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
