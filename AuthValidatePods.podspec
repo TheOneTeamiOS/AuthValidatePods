@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AuthValidatePods'
-  s.version          = '16.0.0'
+  s.version          = '17.0.0'
   s.summary          = 'This project provide validations functions easy to use and develop auth module'
   s.swift_version = '5.0'
 
@@ -36,7 +36,7 @@ TODO: Add long description of the pod here.
   # s.resources = "Classes/**/*.storyboard"
   
    s.resource_bundles = {
-     'AuthValidatePods' => ['Classes/Validate.storyboard']
+     'AuthValidatePods' => ['Classes/**/*.{xib,storyboard,xcassets}']
    }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
