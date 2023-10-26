@@ -36,6 +36,11 @@ public class ValidateVC: UIViewController {
     
 }
 
+public func MyCustomFrameworkBundle() -> Bundle? {
+    let frameworkBundle = Bundle(for: ValidateVC.self)
+    return frameworkBundle
+}
+
 
 public class CustomLabel: UILabel {
     public override init(frame: CGRect) {
